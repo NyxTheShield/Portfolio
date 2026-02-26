@@ -3266,3 +3266,13 @@ h3 {
         transform: translateY(10px) translateX(-15px);
     }
 }
+
+/* Fade whole page in */
+body {
+    opacity: 1;
+    transition: opacity 1.2s ease;
+}
+
+body.is-preload {
+    opacity: 0;
+}
